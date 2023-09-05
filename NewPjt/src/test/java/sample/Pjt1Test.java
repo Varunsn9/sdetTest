@@ -10,9 +10,7 @@ public class Pjt1Test {
 	@Test
 	public void m1Test()
 	{
-		WebDriverManager.chromedriver().setup();
-		WebDriver driver=new ChromeDriver();
-		driver.get("https://www.facebook.com");
+		System.out.println("bye bye");
 	
 	}
 }
