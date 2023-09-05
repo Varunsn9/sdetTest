@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Pjt1Test {
-	WebDriver driver;
+	//WebDriver driver;
 	@Test
 	public void m1Test()
 	{
@@ -29,7 +29,7 @@ public class Pjt1Test {
 	    	//driver=new EdgeDriver();
 	    	System.out.println("chromebrowser is launching");
 	    }
-	    driver.get(URL);
+	   // driver.get(URL);
 	    System.out.println(URL);
 	}
 }
