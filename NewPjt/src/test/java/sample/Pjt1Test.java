@@ -11,6 +11,7 @@ public class Pjt1Test {
 	public void m1Test()
 	{
 		System.out.println("bye bye");
+		System.out.println("see you");
 	
 	}
 }
