@@ -8,5 +8,6 @@ public class pjct2Test {
 	public void m2()
 	{
 		System.out.println("hi");
+		//completed
 	}
 }
