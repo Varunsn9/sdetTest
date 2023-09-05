@@ -7,7 +7,9 @@ public class pjct2Test {
 	@Test
 	public void m2()
 	{
+		//welcome
 		System.out.println("hi");
-		//completed
+		//bye
+
 	}
 }
