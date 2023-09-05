@@ -16,16 +16,20 @@ public class Pjt1Test {
 		 String URL = System.getProperty("url");
 	    if(BROWSER.equalsIgnoreCase("chrome"))
 	    {
-	    	WebDriverManager.chromedriver().setup();
-	    	driver=new ChromeDriver();
+	    //WebDriverManager.chromedriver().setup();
+	    //	driver=new ChromeDriver();
+	    	System.out.println("chromebrowser is launching");
 	    }else if(BROWSER.equalsIgnoreCase("edge"))
 	    {
-	    	WebDriverManager.edgedriver().setup();
-	    	driver=new EdgeDriver();
+	    	//WebDriverManager.edgedriver().setup();
+	    	//driver=new EdgeDriver();
+	    	System.out.println("edgebrowser is launching");
 	    }else {
-	    	WebDriverManager.edgedriver().setup();
-	    	driver=new EdgeDriver();
+	    	//WebDriverManager.edgedriver().setup();
+	    	//driver=new EdgeDriver();
+	    	System.out.println("chromebrowser is launching");
 	    }
 	    driver.get(URL);
+	    System.out.println(URL);
 	}
 }
